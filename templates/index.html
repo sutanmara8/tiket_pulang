@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+    <main class="d-flex align-items-center justify-content-center">
+        <div class="container ">
+        <div id="carouselExampleRide" class="carousel slide shadow rounded overflow-hidden" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/static/images/1.jpg" class="d-block w-100" alt="Slide 1" width="190px" height="500px">
+        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+          <h2>Selamat Datang di Halaman utama</h2>
+          
+        </div>
+      </div>
+            <h1 class="text-center mt-5">{{isi}}</h1>
+        </div>
+    </main>
+{% endblock %}
